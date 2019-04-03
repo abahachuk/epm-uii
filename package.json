@@ -1,0 +1,22 @@
+{
+  "name": "epm-uii",
+  "version": "1.0.0",
+  "description": "epm-uii",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Aliaksei Bahachuk",
+  "license": "ISC",
+  "dependencies": {
+    "gql": "^1.1.2",
+    "graphql": "^14.2.1",
+    "next": "^8.0.4",
+    "next-apollo": "^2.0.9",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.3",
+    "react-dom": "^16.8.6"
+  }
+}
