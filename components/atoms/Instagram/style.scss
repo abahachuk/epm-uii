@@ -1,0 +1,38 @@
+@import '../../../scss/helpers/helpers';
+
+.instagram {
+  display: flex;
+  justify-content: space-between;
+  align-content: top;
+  border-bottom: 1px solid $white-transparent10;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+
+  &__title {
+    @include museo-sans(16px, 700);
+    margin-bottom: 6px;
+    line-height: 14px;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+  }
+
+  &__account {
+    color: $white;
+    font-weight: 300;
+  }
+
+  &__btn {
+    min-width: 172px;
+    padding: 0;
+    margin-top: 11px;
+  }
+
+  &__img {
+    float: left;
+
+    & + & {
+      margin-left: 15px;
+    }
+  }
+}

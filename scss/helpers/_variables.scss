@@ -1,0 +1,62 @@
+//// Color palette
+
+// primary colors
+$epam-blue: #76cdd8;
+$lime-green: #cedb56;
+$graphite: #222;
+$white: #fff;
+
+// secondary colors
+$coral: #d35d47;
+$bright-blue: #008ace;
+$sharp-blue: #39c2d7;
+$dark-blue: #263852;
+$light-gray: #ccc;
+$dark-gray: #464547;
+
+// other colors
+$black: #000;
+$nav-bg: #231f20;
+$gray: #eee;
+$gray-dark: #777;
+$gray-border: #cecece;
+$gray-placeholder: #959595;
+$gray-light: #d9d9d9;
+$turquoise-dark: #7bbbc6;
+$turquoise-darker: #00b4cf;
+$blue-light: #6b7d97;
+$red: #f15c43;
+$white-transparent10: rgba(255, 255, 255, .1);
+$white-transparent15: rgba(255, 255, 255, .15);
+$white-transparent20: rgba(255, 255, 255, .2);
+$white-transparent40: rgba(255, 255, 255, .4);
+$gray-transparent40: rgba(217, 217, 217, .4);
+$black-transparent20: rgba(0, 0, 0, .2);
+$black-transparent45: rgba(0, 0, 0, .45);
+$red-transparent40: rgba(241, 92, 67, .4);
+
+
+//// Sizes
+
+$site-width: 1104px;
+$site-width-outer: 1280px;
+
+
+//// Z-indexes
+
+$z-header: 2;
+$z-slide: 1;
+$z-slide-img: -1;
+$z-search-job: 1;
+
+
+//// bootstrap
+
+$modal-dialog-margin: 0;
+$modal-dialog-margin-y-sm-up: 0;
+$modal-content-border-width: 0;
+$modal-content-bg: transparent;
+$modal-content-border-color: transparent;
+$modal-backdrop-bg: $dark-gray;
+$modal-backdrop-opacity: .8;
+$modal-lg: $site-width;

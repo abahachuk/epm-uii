@@ -1,0 +1,21 @@
+@mixin center {
+  max-width: $site-width;
+  margin: 0 auto;
+}
+
+@mixin outer-center {
+  max-width: $site-width-outer;
+  margin: 0 auto;
+}
+
+@mixin museo-sans($font-size, $font-weight) {
+  font-family: 'museo-sans', 'Source Sans Pro', arial, helvetica, sans-serif;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+@mixin museo-slab($font-size, $font-weight) {
+  font-family: 'museo-slab', 'Source Sans Pro', arial, helvetica, sans-serif;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}

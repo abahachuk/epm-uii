@@ -1,0 +1,102 @@
+@import '../../../scss/helpers/helpers';
+
+.footer {
+  padding: 55px 0 43px;
+  background-color: $dark-blue;
+
+  &__inner {
+    @include center;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $white-transparent10;
+    padding-bottom: 23px;
+    margin-bottom: 30px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__country {
+    @include museo-sans(16px, 700);
+    text-transform: uppercase;
+    color: $white;
+    letter-spacing: .15em;
+
+    &-name {
+      font-weight: 100;
+      color: $blue-light;
+    }
+  }
+
+  &__btn-join {
+    min-width: 172px;
+    margin-left: 68px;
+  }
+
+  &__btn-positions {
+    min-width: 197px;
+    padding: 0;
+    margin-left: 23px;
+  }
+
+  &__social {
+    &-link {
+      display: inline-block;
+      position: relative;
+      border: 1px solid $white-transparent20;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+
+      & + & {
+        margin-left: 11px;
+      }
+    }
+
+    &-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 16px;
+      height: 16px;
+      fill: $white;
+    }
+  }
+
+  &__copyright {
+    color: $white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .02em;
+  }
+
+  &__nav {
+    @include museo-sans(12px, 700);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    min-width: 370px;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+
+    &-link {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

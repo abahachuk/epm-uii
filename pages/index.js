@@ -4,7 +4,6 @@ import { graphql } from "react-apollo";
 const Index = ({ data: { fields } }) => {
   return (
       <div>
-        Hello from nextjs
         <code>{JSON.stringify(fields)}</code>
       </div>
   );

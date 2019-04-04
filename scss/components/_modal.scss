@@ -1,0 +1,19 @@
+.modal {
+  &-open {
+    header,
+    main,
+    footer {
+      filter: blur(28px);
+    }
+  }
+
+  &-backdrop {
+    &.show {
+      // sass-lint:disable no-vendor-prefixes
+      // filter: blur(28px) is not supported by IE: hide background content
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        opacity: 1;
+      }
+    }
+  }
+}

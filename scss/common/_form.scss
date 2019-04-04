@@ -1,0 +1,100 @@
+.btn {
+  @include museo-sans(12px, 700);
+  display: inline-block;
+  position: relative;
+  height: 45px;
+  padding: 0 50px;
+  border-radius: 4px;
+  user-select: none;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0;
+  letter-spacing: .15em;
+
+  &_action {
+    border: 1px solid $epam-blue;
+    background: $epam-blue;
+    color: $white;
+  }
+
+  &_large {
+    height: 61px;
+  }
+
+  &_full {
+    width: 100%;
+  }
+
+  &_transparent {
+    border: 1px solid $white-transparent40;
+    background: transparent;
+    color: $white;
+  }
+
+  &_red {
+    border: 1px solid $red-transparent40;
+    background: transparent;
+    color: $red;
+  }
+
+  &_icon {
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  &_outline {
+    border: 1px solid $epam-blue;
+    background: $white;
+    color: $epam-blue;
+  }
+}
+
+.tbx {
+  width: 100%;
+  height: 45px;
+  padding: 16px 29px 17px;
+  border: 0;
+  border-radius: 4px;
+  background: $white;
+  outline: 0;
+
+  &::placeholder {
+    color: $gray-placeholder;
+    opacity: 1;
+  }
+
+  &_large {
+    height: 61px;
+  }
+
+  &_full {
+    width: 100%;
+  }
+}
+
+.ddn {
+  position: relative;
+  border: 1px solid $white;
+  background: $white;
+
+  select {
+    display: inline-block;
+    width: 100%;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    outline: 0;
+  }
+
+  &__lbl {
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    transform: translateY(-50%);
+    font-size: 17px;
+    font-weight: 300;
+    color: $gray-placeholder;
+  }
+}

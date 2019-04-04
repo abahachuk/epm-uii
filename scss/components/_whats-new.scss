@@ -1,0 +1,48 @@
+.whats-new {
+  position: relative;
+  padding-top: 30px;
+  background: $gray;
+
+  &__inner {
+    @include center;
+    position: relative;
+    height: 100%;
+    padding-bottom: 85px;
+    overflow: hidden;
+  }
+
+  &__title {
+    margin: 0 0 30px;
+    color: $black;
+    text-align: center;
+  }
+
+  &__btn-more {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    background: $epam-blue;
+    z-index: 1;
+  }
+
+  &__more-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 25px;
+    fill: none;
+    stroke: $white;
+    stroke-linecap: round;
+    stroke-width: 2px;
+  }
+
+  &_collapsed {
+    height: 1290px;
+  }
+}

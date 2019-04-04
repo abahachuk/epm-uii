@@ -1,0 +1,621 @@
+{
+  "title": "EPAM Front-End Solutions",
+  "nav": [
+    {
+      "label": "Community",
+      "url": "/community"
+    },
+    {
+      "label": "Education",
+      "url": "/education"
+    },
+    {
+      "label": "Competency center",
+      "url": "/competency-center"
+    },
+    {
+      "label": "Showcase",
+      "url": "/showcase"
+    },
+    {
+      "label": "Careers",
+      "url": "/careers"
+    },
+    {
+      "label": "R&D labs",
+      "url": "/r&d-labs"
+    },
+    {
+      "label": "Internal mobility",
+      "url": "/internal-mobility"
+    }
+  ],
+  "menu": {
+    "title": "EPAM Front-End Solutions",
+    "nav": [
+      {
+        "icon": "-e-ic_community",
+        "top": "Community",
+        "sub": ["Events Calendar", "Events Forecast", "External Conferences"],
+        "url": "/community"
+      },
+      {
+        "icon": "-e-ic_education",
+        "top": "Education",
+        "sub": ["Programs", "External Courses", "EngX", "R&D Labs"],
+        "url": "/education"
+      },
+      {
+        "icon": "-e-ic_career",
+        "top": "Careers",
+        "sub": [
+          "Vacancies",
+          "Career Path",
+          "Interviews",
+          "Skill Matrix",
+          "PDP"
+        ],
+        "url": "/careers"
+      },
+      {
+        "icon": "-e-ic_hr",
+        "top": "People management",
+        "url": "/people-management",
+        "sub": [
+          "RM",
+          "HR",
+          "Benefits",
+          "Relocation Support",
+          "Internal Mobility"
+        ]
+      },
+      {
+        "top": "Competency center",
+        "url": "/competency-center"
+      },
+      {
+        "top": "Showcase",
+        "url": "/showcase"
+      },
+      {
+        "top": "Typical projects",
+        "url": "/typical-proejcts"
+      },
+      {
+        "top": "Locations",
+        "url": "/locations"
+      }
+    ],
+    "nav-additional": [
+      "Privacy Policy",
+      "Terms Of Use",
+      "Third-Parties Legal",
+      "Investors",
+      "Open Source"
+    ]
+  },
+  "location": {
+    "title": "EPAM Front-End Solutions",
+    "countries": [
+      {
+        "flag": "./f-belarus.png",
+        "name": "Belarus",
+        "cities": ["Minsk", "Grodno", "Gomel", "Brest", "Vitebsk", "Mogilev"]
+      },
+      {
+        "flag": "./f-armenia.png",
+        "name": "Armenia",
+        "cities": ["Yerevan"]
+      },
+      {
+        "flag": "./f-ukraine.png",
+        "name": "Ukraine",
+        "cities": ["Kyiv", "Dnipro", "Kharkiv", "Lviv", "Vinnytsia"]
+      },
+      {
+        "flag": "./f-kazakhstan.png",
+        "name": "Kazakhstan",
+        "cities": ["Astana", "Karaganda"]
+      },
+      {
+        "flag": "./f-poland.png",
+        "name": "Poland"
+      },
+      {
+        "flag": "./f-united_states.png",
+        "name": "United states"
+      },
+      {
+        "flag": "./f-switzerland.png",
+        "name": "Switzerland"
+      },
+      {
+        "flag": "./f-czech_republic.png",
+        "name": "Czech republic"
+      }
+    ]
+  },
+  "footer": {
+    "nav": [
+      {
+        "label": "Investors",
+        "url": "#"
+      },
+      {
+        "label": "Privacy policy",
+        "url": "#"
+      },
+      {
+        "label": "Open source",
+        "url": "#"
+      }
+    ],
+    "locations": [
+      {
+        "bg": "/static/images/data/brest.png",
+        "city": "Brest",
+        "address1": "6A Masherov Avenue",
+        "address2": "224030 Brest",
+        "country": "Belarus",
+        "phone": "+375-162-52-5268",
+        "fax": "+375-162-50-9888"
+      },
+      {
+        "bg": "/static/images/data/gomel.png",
+        "city": "Gomel",
+        "address1": "80 Rechitsky Avenue",
+        "address2": "246012 Gomel",
+        "country": "Belarus",
+        "phone": "+375-17-389-0100",
+        "ext": "54079",
+        "fax": "+375-232-70-50-31"
+      },
+      {
+        "bg": "/static/images/data/grodno.png",
+        "city": "Grodno",
+        "address1": "87B Gorkogo Street",
+        "address2": "230005 Grodno",
+        "country": "Belarus",
+        "phone": "+375-17-389-0100",
+        "ext": "69011"
+      },
+      {
+        "bg": "/static/images/data/minsk.png",
+        "city": "Minsk",
+        "address1": "1/1 Academician Kuprevich Street, Suite 110",
+        "address2": "220141 Minsk",
+        "country": "Belarus",
+        "phone": "+375-17-389-0100",
+        "fax": "+375-17-268-6699"
+      },
+      {
+        "bg": "/static/images/data/mogilev.png",
+        "city": "Mogilev",
+        "address1": "19 Cosmonaut Street, Suite 510",
+        "address2": "212009 Mogilev",
+        "country": "Belarus",
+        "phone": "+375-17-389-0100",
+        "ext": "1001"
+      },
+      {
+        "bg": "/static/images/data/vitebsk.png",
+        "city": "Vitebsk",
+        "address1": "11-a Stroitelei Avenue, Suite 311",
+        "address2": "210032 Vitebsk",
+        "country": "Belarus",
+        "phone": "+375-17-389-0100",
+        "ext": "54433"
+      }
+    ],
+    "instagram": [
+      "/static/images/data/inst-1.png",
+      "/static/images/data/inst-2.png",
+      "/static/images/data/inst-3.png",
+      "/static/images/data/inst-4.png",
+      "/static/images/data/inst-5.png",
+      "/static/images/data/inst-6.png",
+      "/static/images/data/inst-1.png",
+      "/static/images/data/inst-2.png"
+    ]
+  },
+  "slides": [
+    {
+      "src": "/static/images/data/slide-1.png",
+      "topic": "IN the Spotlight",
+      "header": "What is DSED?",
+      "text":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor nulla a quam pharetra blandit."
+    },
+    {
+      "src": "/static/images/data/slide-2.png",
+      "topic": "IN the Spotlight",
+      "header": "Top 10 Trends in Front End Development",
+      "text": "AngularJS vs React JS. And some others."
+    },
+    {
+      "src": "/static/images/data/slide-3.png",
+      "topic": "IN the Spotlight",
+      "header": "Welcome to Copenhagen!",
+      "text":
+        "New Conference – Intelligent Automation Nordics: RPA & AI Summit on April 24-25, 2018"
+    }
+  ],
+  "whats-new": [
+    {
+      "bg-img": "/static/images/data/new-1.png",
+      "topic": "Career path",
+      "header": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "action": "Careers page",
+      "view": {
+        "col": "2",
+        "row": "2",
+        "align": "bottom",
+        "topic": "turquoise"
+      }
+    },
+    {
+      "bg-img": "/static/images/data/new-2.png",
+      "topic": "APR 24-25, 2018",
+      "header": "Intelligent Automation Nordics: RPA & AI Summit",
+      "text": "Radisson Blu Scandinavia Hotel Copenhagen, Denmark",
+      "view": {
+        "col": "2",
+        "topic": "lime-green"
+      }
+    },
+    {
+      "img": "/static/images/data/new-3.png",
+      "topic": "R&D Labs",
+      "view": {
+        "align": "top",
+        "topic": "blue",
+        "bg": "lime-green"
+      }
+    },
+    {
+      "bg-img": "/static/images/data/new-4.png",
+      "topic": "Showcase",
+      "header": "Famous Mobile App for Iphone X",
+      "action": "More info",
+      "view": {
+        "row": "2",
+        "align": "top",
+        "topic": "blue"
+      }
+    },
+    {
+      "icon": "#sprite_compcenter",
+      "header": "Competency Center",
+      "view": {
+        "bg": "blue",
+        "icon": "compcenter"
+      }
+    },
+    {
+      "icon": "#sprite_relocation",
+      "header": "Relocation support",
+      "view": {
+        "bg": "red",
+        "icon": "relocation"
+      }
+    },
+    {
+      "bg-img": "/static/images/data/new-7.png",
+      "topic": "MAY 2-4, 2018",
+      "header": "FIMA US 2018",
+      "text": "Westin Copley Place, Boston, MA, USA",
+      "view": {
+        "row": "2",
+        "align": "bottom",
+        "topic": "lime-green"
+      }
+    },
+    {
+      "bg-img": "/static/images/data/new-8.png",
+      "topic": "Hot vacancy",
+      "header": "Senior Front End Developer",
+      "text": "React JS, AngularJS, HTML5, CSS3",
+      "action": "Apply",
+      "view": {
+        "col": "2",
+        "topic": "red"
+      }
+    },
+    {
+      "topic": "Trainings",
+      "header": "JavaScript: Classical Pattern in OOP",
+      "text": "425 Employees attended",
+      "view": {
+        "bg": "white",
+        "topic": "blue",
+        "header": "red",
+        "text": "black"
+      }
+    }
+  ],
+  "upcoming-events": [
+    {
+      "bg-img": "/static/images/data/event-1.png",
+      "topic": "APR 24-25, 2018",
+      "header": "Intelligent Automation Nordics: RPA & AI Summit",
+      "text": "Radisson Blu Scandinavia Hotel Copenhagen, Denmark",
+      "view": {
+        "col": "2",
+        "topic": "lime-green"
+      }
+    },
+    {
+      "bg-img": "/static/images/data/event-2.png",
+      "topic": "MAY 2-4, 2018",
+      "header": "FIMA US 2018",
+      "text": "Westin Copley Place, Boston, MA, USA",
+      "view": {
+        "col": "2",
+        "topic": "lime-green"
+      }
+    },
+    {
+      "bg-img": "/static/images/data/event-3.png",
+      "topic": "MAY 24-25, 2018",
+      "header": "Intelligent Automation Nordics: RPA & AI Summit",
+      "text": "Radisson Blu Scandinavia Hotel Copenhagen, Denmark",
+      "view": {
+        "col": "2",
+        "topic": "blue"
+      }
+    },
+    {
+      "bg-img": "/static/images/data/event-4.png",
+      "topic": "MAY 2-4, 2018",
+      "header": "FIMA US 2018",
+      "text": "Westin Copley Place, Boston, MA, USA",
+      "view": {
+        "topic": "lime-green"
+      }
+    },
+    {
+      "icon": "#sprite_calendar",
+      "action": "Event calendar",
+      "view": {
+        "bg": "red",
+        "icon": "calendar"
+      }
+    }
+  ],
+  "hot-vacancies": [
+    {
+      "title": "Senior Front End Developer",
+      "location": "Minsk, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office to make the team even stronger. It’s a great opportunity...",
+      "view": {
+        "fr": "2"
+      }
+    },
+    {
+      "title": "Front End Developer",
+      "location": "Gomel, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office..."
+    },
+    {
+      "title": "Front End Developer",
+      "location": "Gomel, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office..."
+    },
+    {
+      "title": "Front End Developer",
+      "location": "Gomel, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office..."
+    },
+    {
+      "bg": "/static/images/data/vacancy-1.png",
+      "title": "Senior Front End Developer",
+      "location": "Minsk, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office to make the team even stronger. It’s a great opportunity...",
+      "view": {
+        "fr": "2"
+      }
+    },
+    {
+      "title": "Front End Developer",
+      "location": "Gomel, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office..."
+    },
+    {
+      "bg": "/static/images/data/vacancy-2.png",
+      "title": "Senior Front End Developer",
+      "location": "Minsk, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office to make the team even stronger. It’s a great opportunity...",
+      "view": {
+        "fr": "2"
+      }
+    },
+    {
+      "title": "Front End Developer",
+      "location": "Gomel, Belarus",
+      "text":
+        "Currently we are looking for a Front-end Developer for our Minsk office..."
+    }
+  ],
+  "community-page": {
+    "title": "Community Page",
+    "menu": []
+  },
+  "copentency-center-page": {
+    "title": "Competency Center",
+    "description":
+      "If you haven't found necessary service but you need any help with Core JavaScript, JS Frameworks, Server-Side JavaScript, HTML/CSS, Accessibility, Web graphics and charts, Single Page Applications, Hybrid Mobile App, client-side performance optimization, web security, legacy web browser, browser extensions and plugins feel free to",
+    "contact_us": {
+      "title": "contact us",
+      "url": "#"
+    },
+    "menu": [
+      {
+        "title": "Staffing",
+        "url": "#"
+      },
+      {
+        "title": "Consulting",
+        "url": "#"
+      },
+      {
+        "title": "Pre-sales",
+        "url": "#"
+      },
+      {
+        "title": "Education",
+        "url": "#"
+      },
+      {
+        "title": "Audit",
+        "url": "#"
+      },
+      {
+        "title": "Swat",
+        "url": "#"
+      },
+      {
+        "title": "Interview",
+        "url": "#"
+      },
+      {
+        "title": "Technology",
+        "url": "#"
+      },
+      {
+        "title": "Architecture",
+        "url": "#"
+      },
+      {
+        "title": "Unified",
+        "url": "#"
+      },
+      {
+        "title": "Communities",
+        "url": "#"
+      },
+      {
+        "title": "Accelerators",
+        "url": "#"
+      }
+    ],
+    "services": [
+      {
+        "bg-img": "/static/images/data/new-1.png",
+        "header": "Staffing",
+        "text":
+          "We practise smart staffing using all available tools. Competency center has the wide overview on front-end resources available and maturity.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/event-1.png",
+        "header": "Consulting",
+        "text":
+          "Our experts could advice on any topic related to core front-end technologies, framework, architecture, integration etc.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/event-4.png",
+        "header": "Pre-sales",
+        "text":
+          "Happy to help with estimations, case-studing provisioning, PoCs, interactive, prototypes development.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/new-4.png",
+        "header": "Education",
+        "text":
+          "CC is responsible for Training, Resources Development (labs), retraining and upskilling, mentoring programs.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/new-7.png",
+        "header": "Audit",
+        "text":
+          "Proactively and by request, we performing architecture reviews, code reviews, assessing EngX practise in measures of front-end.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/new-8.png",
+        "header": "Swat",
+        "text":
+          "When project is in trouble we could help to review code and architecture, provide experts for consulting, educate team, resolve performance and technical issues and much more.",
+        "view": {
+          "col": "2",
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/new-2.png",
+        "header": "Interview",
+        "text":
+          "Providing services of technical interviewing for new locations, important opportunities.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/event-2.png",
+        "header": "Technology Assessment",
+        "text":
+          "Our experts are ready to propose best fitting technology set for any proejct. We could assess any new technology or framework.",
+        "view": {
+          "col": "2",
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/event-3.png",
+        "header": "Architecture development",
+        "text":
+          "For new solutions, we are ready to develop architecture of any level of complexity and integration.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/new-1.png",
+        "header": "Unified Assessment",
+        "text":
+          "Keeping hand on pulse pf techology trends and standarts we maintain experts committees expectations from any developer in company.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/event-4.png",
+        "header": "Communities",
+        "text":
+          "Supporting mose powerful internal and external technology communities in key locations and actively opening new locations.",
+        "view": {
+          "align": "left"
+        }
+      },
+      {
+        "bg-img": "/static/images/data/new-7.png",
+        "header": "Accelerators",
+        "text":
+          "For quick project start, we developing front-end accelerator for variety of platforms like Hybris, Sitecore, Adobe Experience Manager and others.",
+        "view": {
+          "align": "left"
+        }
+      }
+    ]
+  }
+}

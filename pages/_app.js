@@ -1,8 +1,13 @@
-import Layout from "../layouts";
-import withData from "../lib/apollo";
+import Layout from '../layouts';
+import withData from '../lib/apollo';
 
-import App, { Container } from "next/app";
-import React from "react";
+
+// Import CSS reset and Global Styles
+import '../scss/main.scss';
+import '../static/images/sprite.svg';
+
+import App, { Container } from 'next/app';
+import React from 'react';
 
 class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {

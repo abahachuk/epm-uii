@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.content {
+  position: relative;
+}
+
+.center {
+  @include center;
+}
+
+.outer-center {
+  @include outer-center;
+}

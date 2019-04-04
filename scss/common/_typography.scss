@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Source Sans Pro;
+  src: url('/static/fonts/source-sans-pro/bold.woff2') format('woff2'), url('/static/fonts/sourcesanspro-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Source Sans Pro;
+  src: url('/static/fonts/source-sans-pro/light.woff2') format('woff2'), url('/static/fonts/sourcesanspro-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Source Sans Pro;
+  src: url('/static/fonts/source-sans-pro/regular.woff2') format('woff2'), url('/static/fonts/sourcesanspro-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font: 16px/1.5 'Source Sans Pro', arial, helvetica, sans-serif;
+}
+
+h1 {
+  @include museo-slab(1.875rem, 700);
+  margin: 0 0 7px;
+}
+
+h2 {
+  @include museo-slab(1.625rem, 500);
+  margin: 0 0 24px;
+}
+
+h3 {
+  @include museo-slab(1.25rem, 500);
+  margin: 0 0 26px;
+}
+
+h4 {
+  @include museo-slab(1rem, 500);
+  margin: 0 0 3px;
+}
