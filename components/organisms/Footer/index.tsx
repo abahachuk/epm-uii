@@ -1,18 +1,14 @@
 import * as React from 'react';
 import './style.scss';
 import { IProps } from './Footer';
-import { fromJS } from 'immutable';
 
 import FooterLocations from '../../molecules/FooterLocations';
 import Instagram from '../../atoms/Instagram';
 
 
 export default function Footer(props: IProps) {
-  const { footer } = props;
-  const { country = fromJS({}) } = props;
-
-  const name = country.get('name');
-  const cities = country.get('cities');
+  const { footer, country = {} } = props;
+  const { name, cities = [] } = country;
 
   return (
     <footer className="footer">
@@ -66,4 +62,3 @@ export default function Footer(props: IProps) {
     </footer>
   );
 }
-

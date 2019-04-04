@@ -1,0 +1,65 @@
+@import '../../../scss/helpers/helpers';
+
+.slider {
+  @include outer-center;
+  text-align: center;
+
+  &__wrapper {
+    background: $gray;
+  }
+
+  &__slide {
+    position: relative;
+    min-height: 637px;
+    padding-top: 267px;
+    z-index: $z-slide;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: $z-slide-img;
+  }
+
+  &__topic {
+    @include museo-sans(12px, 700);
+    margin-bottom: 8px;
+    color: $epam-blue;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+  }
+
+  &__header {
+    color: $white;
+  }
+
+  &__text {
+    max-width: 540px;
+    margin: 0 auto;
+    color: $white;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .02em;
+  }
+
+  .slick-dots--white {
+    z-index: 1;
+    bottom: 35px;
+  }
+
+  .slick-dots.slick-dots--white {
+    li button:before {
+      opacity: 1;
+      color: $white;
+      font-size: 16px;
+    }
+
+    li.slick-active button::before {
+      opacity: 1;
+      color: $white;
+      font-size: 30px;
+    }
+  }
+}

@@ -15,7 +15,7 @@ function FooterLocation(props: IProps) {
         <img src={`${images('static/images/data/footer-video.png')}`} alt="" />
       </div>
       {!!cities && cities.map((item: IItem, index: number) =>
-        <Item key={index} country={country} {...item.toJS()} />
+        <Item key={index} country={country} {...item} />
       )}
     </div>
   );

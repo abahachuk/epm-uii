@@ -1,0 +1,19 @@
+@import '../../../scss/helpers/helpers';
+
+.upcoming-events {
+  position: relative;
+  padding: 83px 0 85px;
+  background: $white;
+
+  &__inner {
+    @include center;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  &__title {
+    color: $black;
+    text-align: center;
+  }
+}
