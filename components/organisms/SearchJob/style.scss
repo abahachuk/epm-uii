@@ -1,0 +1,50 @@
+@import '../../../scss/helpers/helpers';
+.search-job {
+  display: flex;
+  position: absolute;
+  top: 477px;
+  left: 0;
+  right: 0;
+  width: 920px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 0 5px $black-transparent45;
+  z-index: $z-search-job;
+  &__tbx {
+    width: 50%;
+    .tbx {
+      height: 61px;
+      padding: 0 29px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      &::placeholder {
+        font-size: 17px;
+        font-weight: 300;
+      }
+    }
+  }
+  &__ddn {
+    flex: 1 0 auto;
+    border-left: 1px solid $gray-border;
+    .ddn {
+      width: 100%;
+      height: 61px;
+      padding: 0 29px;
+      &__label {
+        transform: translateY(-50%);
+        font-size: 14px;
+        font-weight: 300;
+        color: #959595;
+      }
+    }
+  }
+  &__btn {
+    width: 190px;
+    .btn {
+      width: 100%;
+      padding: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}

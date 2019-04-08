@@ -1,6 +1,8 @@
 const withTypescript = require("@zeit/next-typescript");
 const withSass = require("@zeit/next-sass");
 const withCSS = require('@zeit/next-css');
+const Dotenv = require('dotenv-webpack')
+const path = require('path')
 
 module.exports = withTypescript(withCSS(withSass({
   webpack(config) {
@@ -21,6 +23,19 @@ module.exports = withTypescript(withCSS(withSass({
         },
       },
     });
+
+    config.plugins = config.plugins || []
+
+    config.plugins = [
+      ...config.plugins,
+
+      // Read the .env file
+      new Dotenv({
+        path: path.join(__dirname, '.env'),
+        systemvars: true
+      })
+    ]
+
 
     return config;
   },

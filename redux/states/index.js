@@ -1,11 +1,11 @@
-import { countriesInitialState } from './countries.state';
+import { countryInitialState } from './country.state';
 
 const initialState = {
-  contries: countriesInitialState,
+  contry: countryInitialState,
 };
 
 export default initialState;
 
 export {
-  countriesInitialState,
+  countryInitialState,
 };

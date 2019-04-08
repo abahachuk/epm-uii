@@ -2,7 +2,7 @@ import { Provider } from 'react-redux';
 import App, { Container } from 'next/app';
 import React from 'react';
 
-import Layout from '../layouts';
+import Layout from '../components/layouts';
 import withData from '../lib/apollo';
 import withReduxStore from '../lib/redux';
 

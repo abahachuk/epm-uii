@@ -5,6 +5,7 @@ export const actionTypes = {
   FETCH_COUNTRY: 'FETCH_COUNTRY',
   RECEIVE_COUNTRIES: 'RECEIVE_COUNTRIES',
   RECEIVE_COUNTRY: 'RECEIVE_COUNTRY',
+  UPDATE_CURRENT_CITY_ID: 'UPDATE_CURRENT_CITY_ID',
 };
 
 export const receiveCountries = data => ({
@@ -15,6 +16,11 @@ export const receiveCountries = data => ({
 export const receiveCountry = data => ({
   type: actionTypes.RECEIVE_COUNTRY,
   data,
+});
+
+export const updateCurrentCityId = id => ({
+  type: actionTypes.UPDATE_CURRENT_CITY_ID,
+  data: id,
 });
 
 export const fetchCountries = ctx => dispatch => getCountries(ctx)

@@ -9,6 +9,7 @@ import Instagram from '../../atoms/Instagram';
 export default function Footer(props: IProps) {
   const { footer, country = {} } = props;
   const { name, cities = [] } = country;
+  const { video, instagram, nav } = footer;
 
   return (
     <footer className="footer">
@@ -45,13 +46,13 @@ export default function Footer(props: IProps) {
             </a>
           </div>
         </div>
-        <FooterLocations cities={cities} country={name}></FooterLocations>
-        <Instagram instagram={footer.instagram}></Instagram>
+        <FooterLocations video={video} cities={cities} country={name}></FooterLocations>
+        <Instagram instagram={instagram}></Instagram>
         <div className="footer__bottom">
           <div className="footer__copyright">© 2018 EPAM Systems, Inc. All Rights Reserved.</div>
           <nav>
             <ul className="footer__nav">
-              {!!footer.nav.length && footer.nav.map((item, index) =>
+              {!!nav.length && nav.map((item, index) =>
                 <li key={index} className="footer__nav-item">
                   <a className="footer__nav-link" href={item.url}>{item.label}</a>
                 </li>)}
